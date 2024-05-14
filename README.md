@@ -10,4 +10,4 @@ How to run:
 2. Run `npm run dev` to run the development environment
 3. If you decide to push to main just know that this causes a build with Cloudflare and it will go live
 
-Images used in the initial version of this website are stock images from Unsplash and are under the Unsplash license: https://unsplash.com/license
+Images used in the initial version of this website used some stock images that were from Unsplash and are under the Unsplash license: https://unsplash.com/license

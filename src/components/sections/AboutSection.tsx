@@ -35,7 +35,10 @@ export default function AboutSection({
           <div className="bio-content">{children}</div>
         </div>
       </section>
-      <ImageGallery displayCount={3} images={featuredImages} />
+      {/* No images available just yet, need to take some original ones, leaving this out and just using some temp spacing with br elements for now */}
+      <br />
+      <br />
+      {/* <ImageGallery displayCount={3} images={featuredImages} /> */}
     </>
   );
 }

@@ -46,34 +46,34 @@ export const SOCIAL_LINKS: Icon[] = [
 
 //PHOTOGRAPHY
 export const FEATURED_IMAGES: Image[] = [
-    {
-        key: "featured-1",
-        src: "/coffee.jpg",
-        alt: "Stock image of two cups of coffee with a book and a bowl of brown sugar"
-    },
-    {
-        key: "featured-2",
-        src: "/plants2.jpg",
-        alt: "Stock image of a green rubber plant"
-    },
-    {
-        key: "featured-3",
-        src: "/women-at-laptop.jpg",
-        alt: "Stock image of two women looking at a website on a laptop"
-    }
+    // {
+    //     key: "featured-1",
+    //     src: "",
+    //     alt: ""
+    // },
+    // {
+    //     key: "featured-2",
+    //     src: "",
+    //     alt: ""
+    // },
+    // {
+    //     key: "featured-3",
+    //     src: "",
+    //     alt: ""
+    // }
 ]
 
 export const CONTACT_ME_IMAGES: Image[] = [
-    {
-        key: "contact-1",
-        src: "/working.jpg",
-        alt: "Stock image of woman working at laptop"
-    },
-    {
-        key: "contact-2",
-        src: "/plants1.jpg",
-        alt: "Stock image of a green rubber plant"
-    }
+    // {
+    //     key: "contact-1",
+    //     src: "",
+    //     alt: ""
+    // },
+    // {
+    //     key: "contact-2",
+    //     src: "",
+    //     alt: ""
+    // }
 ]
 
 //SKILLS
