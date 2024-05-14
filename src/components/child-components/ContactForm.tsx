@@ -53,6 +53,7 @@ export default function ContactForm() {
         //TODO: Create cloudflare worker to submit the data and send email through sendgrid
         try {
           console.info('Form was submitted successfully but actually went nowhere because I haven\'t created the endpoint to send these to yet <3')
+          console.log(values)
           setSuccess(true)
           resetForm()
         } catch (error) {
