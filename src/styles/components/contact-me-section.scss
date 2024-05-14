@@ -1,0 +1,39 @@
+.contact.wrapper {
+
+    .container {
+        @apply md:grid md:grid-cols-2 flex flex-col gap-16;
+
+        .inner-content {
+            @apply grid gap-3;
+
+            .images {
+                @apply gap-3 mt-5 max-h-[15rem] sm:flex hidden;
+
+                img:first-child {
+                    @apply w-[200%]; //making the first image longer always
+                }
+            }
+        }
+
+        .form {
+            @apply flex flex-col gap-3;
+
+            .error-message {
+                @apply text-[0.8rem] font-medium;
+                color: red;
+            }
+
+            .field-group {
+                @apply flex sm:flex-row flex-col gap-3;
+
+                textarea, input, label {
+                    @apply w-full;
+                }
+
+                textarea {
+                    @apply h-[10rem];
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+html {
+  @apply text-[13px] md:text-[14px] lg:text-[15px] scroll-smooth lg:leading-relaxed text-blue-navy tracking-wider;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  * {
+    @apply focus:outline-none;
+  }
+}
+
+//Layout
+body {
+  @apply bg-white-lightcream;
+
+  * {
+    @apply overflow-hidden;
+  }
+}
+.wrapper {
+  @apply grid lg:px-[5rem] sm:px-[2rem] lg:py-[5rem] py-[3rem];
+}
+.container {
+  @apply px-5 lg:max-w-[1100px] sm:max-w-[800px] max-w-[450px] justify-self-center;
+}
+.container.wide {
+  @apply lg:max-w-[1240px] sm:max-w-[900px] max-w-[500px];
+}
+img,
+video {
+  @apply rounded-lg object-cover w-full h-full;
+}
+
+//Text
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold leading-snug tracking-normal;
+}
+.hero-text {
+  @apply lg:text-[3.5rem] text-[2rem] font-bold leading-tight;
+}
+.heading-text {
+  @apply lg:text-[1.5rem] text-[1.3rem] capitalize;
+}
+.smaller-heading-text {
+  @apply lg:text-[1.2rem] text-[1.1rem] capitalize;
+}
+.subtitle-text {
+  @apply lg:text-[1.3rem] text-[1.2rem] leading-snug;
+}
+
+//Buttons & Links
+.inline-link {
+  @apply underline hover:text-red-brick focus:text-red-brick font-medium focus:ring focus:ring-red-brick;
+}
+.button-group {
+  @apply flex gap-3;
+}
+.button {
+  @apply w-fit hover:border-red-brick focus:border-red-brick bg-blue-navy text-white-lightcream border-2 rounded-md px-5 py-2 border-blue-navy;
+}
+.button.outlined {
+  @apply bg-transparent hover:border-red-brick focus:border-red-brick text-blue-navy border-blue-navy font-medium;
+}
+.icons-group {
+  @apply flex gap-1;
+
+  a {
+    @apply focus:bg-blue-navy rounded-lg;
+  }
+
+  img {
+    @apply rounded-none object-contain;
+  }
+}
+.icon {
+  @apply h-[2rem] w-[2rem];
+}
+
+//Forms
+.required {
+  color: red;
+}
+label {
+  @apply font-medium;
+}
+input,
+textarea,
+select {
+  @apply placeholder:text-green-sage text-blue-navy bg-transparent focus:border-red-brick border-2 border-green-sage w-full px-5 py-2 rounded-md;
+}
+
+//Error page
+.error-display {
+  @apply min-h-[85vh];
+
+  .container {
+    @apply flex flex-col gap-5 justify-center;
+  }
+}
+
+//Priv Policy
+.priv-pol {
+  @apply min-h-[85vh];
+
+  .container {
+    @apply flex flex-col gap-5;
+  }
+}
+
+//Header
+.site-header {
+  @apply py-8 border-b-2 border-gray-borders;
+
+  .hamburger-menu {
+    @apply lg:hidden cursor-pointer;
+    img {
+      @apply rounded-none h-[auto] w-[2rem];
+    }
+  }
+
+  .icons-tabs {
+    @apply flex gap-3 justify-end items-center;
+
+    .tab {
+      @apply flex gap-2 items-center;
+
+      img {
+        @apply w-[1.2rem] h-[1.2rem] object-contain;
+      }
+    }
+  }
+
+  .navbar {
+    .navlinks {
+      @apply flex gap-3;
+
+      .navlink {
+        a {
+          @apply font-medium hover:underline focus:text-red-brick hover:text-red-brick;
+        }
+      }
+    }
+  }
+
+  .container {
+    @apply flex gap-5 justify-between items-center flex-wrap;
+
+    .inner {
+      @apply flex gap-8 lg:justify-start justify-between lg:w-fit w-full;
+
+      .logo img {
+        @apply w-[7rem] rounded-none object-contain;
+      }
+
+      // Hide desktop ver on smaller screens
+      .navbar.desktop {
+        @apply lg:block hidden;
+      }
+    }
+
+    // Hide desktop ver on smaller screens
+    .icons-tabs.desktop {
+      @apply lg:flex hidden;
+    }
+  }
+
+  //mobile menu
+  .mobile-menu {
+    @apply min-h-[110vh] fixed right-0 top-0 lg:hidden bg-[rgb(61,64,91,0.36)] w-full;
+    z-index: 999;
+
+    .navbar.mobile {
+      @apply bg-yellow-cream p-8 min-h-[110vh] w-fit right-0 absolute flex flex-col gap-8;
+
+      .cross-icon {
+        @apply lg:hidden cursor-pointer w-fit absolute right-8;
+
+        img {
+          @apply rounded-none h-[auto] w-[1.5rem];
+        }
+      }
+
+      .navlinks {
+        @apply flex flex-col pt-[3rem];
+
+        a {
+          @apply underline;
+        }
+      }
+      .icons-tabs.mobile {
+        @apply flex-col items-start gap-5;
+      }
+    }
+  }
+}
+
+//Footer
+.site-footer {
+  @apply bg-red-brick text-white-lightcream text-base font-light;
+
+  .wrapper {
+    @apply sm:py-16 py-10;
+  }
+
+  .inner-footer {
+    @apply grid gap-3 sm:grid-cols-2;
+
+    .heading-text {
+      @apply font-medium normal-case;
+    }
+  }
+
+  .copyright {
+    @apply border-t-2 py-5 border-[rgb(244,241,222,0.3)] text-sm;
+
+    .container {
+      @apply flex gap-3 justify-between flex-wrap;
+
+      a {
+        @apply hover:underline;
+      }
+    }
+  }
+}

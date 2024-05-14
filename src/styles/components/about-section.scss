@@ -1,0 +1,11 @@
+.about.wrapper {
+    @apply pb-0;
+
+    .container {
+        @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
+
+        .heading-content {
+            @apply flex flex-col gap-2;
+        }
+    }
+}

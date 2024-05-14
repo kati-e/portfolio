@@ -1,0 +1,29 @@
+.testimonials.wrapper {
+    @apply border-b-2 border-gray-borders;
+    
+    .testimonial-cards {
+        @apply grid sm:grid-cols-2 gap-5 pt-8;
+
+        .card {
+            @apply grid gap-2 border-2 border-gray-borders rounded-lg p-6 w-full h-fit;
+
+            p {
+                @apply italic;
+            }
+
+            .authors-box {
+                @apply flex gap-5 items-center mt-5; 
+
+                .author-icon {
+                    @apply min-h-[4rem] min-w-[4rem] bg-center bg-cover rounded-full bg-no-repeat;
+                }
+
+                .author-info {
+                    span {
+                        @apply text-[0.9rem];
+                    }
+                }
+            }
+        }
+    }
+}
