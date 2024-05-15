@@ -64,8 +64,7 @@ export default function HomePage() {
         images={CONTACT_ME_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a web developer & designer specialising in
-          WordPress, React.js, PHP, Javascript, Typescript, and HTML/CSS.
+        Want to collaborate or just say 'hi'? I'm always open to meeting new people or discussing new opportunities. Feel free to contact me via LinkedIn or email to connect.
         </p>
         {EmailAddress && (
           <span>
