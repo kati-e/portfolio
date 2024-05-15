@@ -115,7 +115,7 @@ export const TESTIMONIALS: Testimonial[] = [
     {
         testimonial: 'I highly recommend Katelyn for her amazing developer and designer skills. She does an amazing job on all projects. Not only does she meet the deadlines and requirements, she also helps build long-term relationships with clients.<br><br>I have the privilege of working with her on several projects and she is an absolutely pleasure to work with. Katelyn\'s dedication to ensuring high quality work and great results for clients is remarkable.',
         authorName: 'Luc Van der Vulgt',
-        authorPosition: 'Project Account Manager at Digital8 (Former)',
+        authorPosition: 'Project Account Manager at Digital8',
         authorIcon: '/testimonials/luc.jpeg'
     },
     {
