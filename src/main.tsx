@@ -7,6 +7,7 @@ import Footer from "./components/Footer.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage.tsx";
 import PrivacyPolicy from "./PrivacyPolicy.tsx";
+import TagManager from 'react-gtm-module';
 
 //ROUTING
 const router = createBrowserRouter([
@@ -21,6 +22,13 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
 ]);
+
+//GOOGLE TAG MANAGER
+const GTM = {
+  gtmId: 'GTM-KLD8ZGP'
+}
+TagManager.initialize(GTM);
+
 
 //MAIN APP
 ReactDOM.createRoot(document.getElementById("root")!).render(
