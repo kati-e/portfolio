@@ -124,6 +124,12 @@ export const TESTIMONIALS: Testimonial[] = [
         authorPosition: 'Social & PPC Lead at Digital8',
         authorIcon: '/testimonials/freja.jpeg'
     },
+    {
+        testimonial: 'I worked with Katelyn for 9 months at Digital8 and I would highly recommend her for any development work. Her skills are second to none when it comes to development and she passed along some of her knowledge to myself which I am very grateful for. She is organised, efficient and reliable, count yourself lucky if you are able to have Katelyn as part of your team!',
+        authorName: 'Ruby Fieldes',
+        authorPosition: 'Client Web Support at Digital8',
+        authorIcon: '/testimonials/ruby.jpg'
+    },
 ]
 
 //PORTFOLIO
