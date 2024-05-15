@@ -36,7 +36,7 @@ export default function PortfolioSection({
               return index < projectCount ? <PortfolioCard key={slugify(project.title)} project={project} /> : null;
             })}
         </div>
-        {doSeeMore && <a className="button cursor-pointer" onClick={() => {setProjectCount(projectCount + 2)}}>See More Projects</a>}
+        {doSeeMore && <button className="button cursor-pointer" onClick={() => {setProjectCount(projectCount + 2)}}>See More Projects</button>}
         {doSeeLess && <a href="#portfolio" className="button" onClick={() => {setProjectCount(4)}}>See Less Projects</a>}
       </div>
     </section>
