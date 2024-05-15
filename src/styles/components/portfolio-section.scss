@@ -13,10 +13,10 @@
         @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
 
         .card {
-            @apply grid gap-8 bg-white-lightcream p-6 rounded-lg;
+            @apply flex flex-col gap-8 bg-white-lightcream p-6 rounded-lg items-start;
 
             .img-group {
-                @apply relative h-fit rounded-lg;
+                @apply relative h-fit rounded-lg w-full;
 
                 .overlay {
                     //on hover becomes display: flex, else display: none
