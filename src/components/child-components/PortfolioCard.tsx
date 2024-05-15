@@ -32,7 +32,11 @@ export default function PortfolioCard({
       }
       <div className="card-content">
         <div className="top-section">
-          <h3 className="smaller-heading-text">{project.title ?? ""}</h3>
+          { project.siteUrl ? (
+            <a href={project.siteUrl} target="_blank"><h3 className="smaller-heading-text">{project.title ?? ""}</h3></a>
+          ) : (
+            <h3 className="smaller-heading-text">{project.title ?? ""}</h3>
+          )}
           {project.workingFor ? (
             <span> Working For <a className="inline-link" href={project.workingForLink ?? "#"} target="_blank">{project.workingFor}</a> | {project.dateLaunched ?? ""}</span>
           ) : (

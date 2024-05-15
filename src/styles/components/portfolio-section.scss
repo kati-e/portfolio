@@ -39,6 +39,10 @@
                 .top-section {
                     @apply grid gap-2;
 
+                    a {
+                        @apply hover:text-red-brick;
+                    }
+
                     span {
                         @apply font-medium;
                     }
