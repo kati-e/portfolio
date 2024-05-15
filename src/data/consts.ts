@@ -96,7 +96,7 @@ export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
     },
     {
         title: 'Web & Digital Design',
-        description: 'Experienced in both digital graphic design & UX/UI design, I love crafting bespoke website designs & prototypes in Figma.'
+        description: 'Experienced in both digital graphic design & UI design, I love crafting bespoke website designs & prototypes in Figma.'
     },
     {
         title: 'Security, Accessability, & QA',
@@ -153,27 +153,27 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Early 2023",
-        excerpt: "Apart from initial mockups of the home page, I was the lead designer & developer for this project which was built in WordPress. This was a great project to work on, and I really enjoyed the process from design to launch.",
+        excerpt: "I was assigned to finish designing & build the new website for Common Ground QLD. Apart from initial mockups of the home page & navigation, I was the lead designer & developer for this project which was built in WordPress. We had many meetings with the project stakeholders to discuss features and design, and it was really good to see them so passionate about the new site. I really enjoyed the process from design to launch.",
         featuredImage: { src: "/portfolio/common-ground-qld.jpg", alt: "Common Ground Queensland Website Rebuild" },
         siteUrl: "https://commongroundqld.org.au/",
-        techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS", "Javascript", "PHP"]
+        techStack: ["Web Design", "WordPress", "Elementor", "CSS", "Javascript", "PHP"]
     },
     {
         title: "Slade Industries",
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Mid 2023",
-        excerpt: "I was tasked with the new Slade Industries website rebuild and redesign project. Our in-house designer provided the initial home page design for the new look of the website, and I built out the rest of the website based on this to give it a consistent and polished feel.",
+        excerpt: "I was tasked to work on the new Slade Industries website rebuild and redesign project. Apart from initial mockups of the home page completed by a former in-house designer, I was the lead designer & developer for this project. I also designed a separate landing page for their Siex technology. I designed & built the rest of the website based off the existing initial home page design to give it a consistent and polished feel, then deployed the site onto the live hosting environment once completed.",
         featuredImage: { src: "/portfolio/slade-industries.jpg", alt: "Slade Industries Website Rebuild" },
         siteUrl: "https://sladeindustries.com.au/",
-        techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS"]
+        techStack: ["Web Design", "WordPress", "Elementor", "CSS"]
     },
     {
         title: "Pie Solutions",
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Early 2024",
-        excerpt: "This was a solo project for me. I went away and selected a few base WordPress themes for them to choose from, and then I built out the design based on the different pages and sections they required. The client was happy with the result and I launched the website on their servers for them at the end. It was a small but fun project to complete!",
+        excerpt: "I was assigned to build the new Pie Solutions website rebuild in WordPress & Elementor using an existing template but tweaking it to suit their design preferences. I selected a few base WordPress themes for them to choose from, and then I built out the design based on the different pages and sections they required. I launched the website on the client's servers for them at the end of the project.",
         featuredImage: { src: "/portfolio/pie-solutions.jpg", alt: "Pie Solutions Website Rebuild" },
         siteUrl: "https://piesolutions.com.au/",
         techStack: ["WordPress", "Elementor", "CSS"]
@@ -181,9 +181,9 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     {
         title: "Logan City Skate Around",
         dateLaunched: "Early 2024",
-        excerpt: "As a member of the roller skating club in Logan City, I volunteered my services to the team to redesign and build a new club website. I designed the website front page in Figma and once I received the go ahead from the club I built out the rest of the pages and launched the site on a new host suitable for WordPress.",
+        excerpt: "As a member of the roller skating club in Logan City, I volunteered my services to the team to redesign and build a new club website. I designed the website front page in Figma and once I received the go ahead from the club I built out the rest of the pages and launched the site on a hosting service suitable for WordPress & that the club could afford/maintain.",
         featuredImage: { src: "/portfolio/lcsa.jpg", alt: "Logan City Skate Around Website Rebuild" },
         siteUrl: "https://logancityskatearound.com/",
-        techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS", "Javascript"]
+        techStack: ["Web Design", "WordPress", "Elementor", "CSS", "Javascript"]
     },
 ]
