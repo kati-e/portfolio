@@ -129,24 +129,6 @@ export const TESTIMONIALS: Testimonial[] = [
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     {
-        title: "Pie Solutions",
-        workingFor: "Digital8",
-        workingForLink: "https://digital8.com.au/",
-        dateLaunched: "Early 2024",
-        excerpt: "This was a solo project for me. I went away and selected a few base WordPress themes for them to choose from, and then I built out the design based on the different pages and sections they required. The client was happy with the result and I launched the website on their servers for them at the end. It was a small but fun project to complete!",
-        featuredImage: { src: "/portfolio/pie-solutions.jpg", alt: "Pie Solutions Website Rebuild" },
-        siteUrl: "https://piesolutions.com.au/",
-        techStack: ["WordPress", "Elementor", "CSS"]
-    },
-    {
-        title: "Logan City Skate Around",
-        dateLaunched: "Early 2024",
-        excerpt: "As a member of the roller skating club in Logan City, I volunteered my services to the team to redesign and build a new club website. I designed the website front page in Figma and once I received the go ahead from the club I built out the rest of the pages and launched the site on a new host suitable for WordPress.",
-        featuredImage: { src: "/portfolio/lcsa.jpg", alt: "Logan City Skate Around Website Rebuild" },
-        siteUrl: "https://logancityskatearound.com/",
-        techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS", "Javascript"]
-    },
-    {
         title: "Lighting Illusions",
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
@@ -185,5 +167,23 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         featuredImage: { src: "/portfolio/slade-industries.jpg", alt: "Slade Industries Website Rebuild" },
         siteUrl: "https://sladeindustries.com.au/",
         techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS"]
-    }
+    },
+    {
+        title: "Pie Solutions",
+        workingFor: "Digital8",
+        workingForLink: "https://digital8.com.au/",
+        dateLaunched: "Early 2024",
+        excerpt: "This was a solo project for me. I went away and selected a few base WordPress themes for them to choose from, and then I built out the design based on the different pages and sections they required. The client was happy with the result and I launched the website on their servers for them at the end. It was a small but fun project to complete!",
+        featuredImage: { src: "/portfolio/pie-solutions.jpg", alt: "Pie Solutions Website Rebuild" },
+        siteUrl: "https://piesolutions.com.au/",
+        techStack: ["WordPress", "Elementor", "CSS"]
+    },
+    {
+        title: "Logan City Skate Around",
+        dateLaunched: "Early 2024",
+        excerpt: "As a member of the roller skating club in Logan City, I volunteered my services to the team to redesign and build a new club website. I designed the website front page in Figma and once I received the go ahead from the club I built out the rest of the pages and launched the site on a new host suitable for WordPress.",
+        featuredImage: { src: "/portfolio/lcsa.jpg", alt: "Logan City Skate Around Website Rebuild" },
+        siteUrl: "https://logancityskatearound.com/",
+        techStack: ["UX/UI Design", "WordPress", "Elementor", "CSS", "Javascript"]
+    },
 ]
