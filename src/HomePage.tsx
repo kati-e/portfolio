@@ -3,8 +3,10 @@ import HeroBanner from "./components/sections/HeroBanner";
 import CardsSection from "./components/sections/CardsSection";
 import {
   CONTACT_ME_IMAGES,
+  DP_ME,
   EmailAddress,
   FEATURED_IMAGES,
+  Github,
   PORTFOLIO_PROJECTS,
   SOCIAL_LINKS,
   TECHNICAL_SPECIALISATIONS,
@@ -31,15 +33,12 @@ export default function HomePage() {
       <AboutSection
         sectionId="about"
         title="About Me"
+        dpImage={DP_ME}
         icons={SOCIAL_LINKS}
         featuredImages={FEATURED_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a web developer & designer specialising in
-          WordPress, React, Javascript, Typescript, and HTML/CSS. I completed my
-          Graduate Diploma in IT (Majoring in Computer Science) early 2023 and
-          am currently working as a freelancer available for web projects
-          Australia-wide.
+          My name is Katelyn and I'm a web developer & designer with experience in WordPress, React, Javascript, Typescript, PHP, and HTML/CSS. I completed my Graduate Diploma in IT (Majoring in Computer Science) early 2023 while working as a Web Developer for Digital8. <br/><br/>I am now currently working as a freelancer available for web projects Australia-wide. If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see personal projects I've been working on.
         </p>
       </AboutSection>
       <CardsSection

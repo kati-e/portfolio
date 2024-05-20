@@ -14,12 +14,14 @@ import ImageGallery from "../child-components/ImageGallery";
 export default function AboutSection({
   sectionId,
   title,
+  dpImage,
   icons,
   featuredImages,
   children,
 }: {
   sectionId?: string;
   title: string;
+  dpImage?: Image;
   icons: Icon[];
   featuredImages: Image[];
   children: ReactNode;
@@ -29,6 +31,9 @@ export default function AboutSection({
       <section id={sectionId ?? ""} className="about wrapper">
         <div className="container">
           <div className="heading-content">
+            {dpImage && <div className="dp-image">
+              <img src={dpImage.src} alt={dpImage.alt} height="130px" width="130px" />
+            </div>}
             <h2 className="heading-text">{title ?? ""}</h2>
             <IconsGroup icons={icons} />
           </div>

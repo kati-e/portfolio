@@ -6,6 +6,10 @@
 
         .heading-content {
             @apply flex flex-col gap-2;
+
+            .dp-image {
+                @apply rounded-full h-[7rem] w-[7rem];
+            }
         }
     }
 }

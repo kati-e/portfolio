@@ -1,8 +1,9 @@
 import { PortfolioProject, Testimonial, Icon, Image, TextCard, Link } from "./shapes";
 
-export const LinkedIn = 'https://www.linkedin.com/in/katelyncleary/'
-export const Github = 'https://github.com/kati-e/'
-export const EmailAddress = 'support@klcleary.com'
+export const LinkedIn: string = 'https://www.linkedin.com/in/katelyncleary/'
+export const Github: string = 'https://github.com/kati-e/'
+export const EmailAddress: string = 'support@klcleary.com'
+export const DP_ME: Image = {src: '/me.jpg', alt: "Photo of me in Japan with some bamboo in the background"}
 
 //NAVBAR
 export const NAV_MENU: Link[] = [
