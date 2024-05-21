@@ -7,7 +7,7 @@ import Footer from "./components/Footer.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage.tsx";
 import PrivacyPolicy from "./PrivacyPolicy.tsx";
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 
 //ROUTING
 const router = createBrowserRouter([
@@ -24,13 +24,10 @@ const router = createBrowserRouter([
 ]);
 
 //GOOGLE TAG MANAGER
-const GTM = {
-  gtmId: 'GTM-KLD8ZGP',
-  nonce: document.querySelector('meta[data-nonce]')?.getAttribute('content')
-}
-TagManager.initialize(GTM);
-
-console.log(GTM.nonce)
+// const GTM = {
+//   gtmId: 'GTM-KLD8ZGP',
+// }
+// TagManager.initialize(GTM);
 
 //MAIN APP
 ReactDOM.createRoot(document.getElementById("root")!).render(
