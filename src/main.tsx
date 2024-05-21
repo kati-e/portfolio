@@ -30,6 +30,7 @@ const GTM = {
 }
 TagManager.initialize(GTM);
 
+console.log(GTM.nonce)
 
 //MAIN APP
 ReactDOM.createRoot(document.getElementById("root")!).render(
