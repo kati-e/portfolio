@@ -25,7 +25,8 @@ const router = createBrowserRouter([
 
 //GOOGLE TAG MANAGER
 const GTM = {
-  gtmId: 'GTM-KLD8ZGP'
+  gtmId: 'GTM-KLD8ZGP',
+  nonce: document.querySelector('meta[data-nonce]')?.getAttribute('content')
 }
 TagManager.initialize(GTM);
 
