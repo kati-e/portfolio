@@ -36,10 +36,7 @@ export default function Header() {
                     </div>
                </div>
                <div className="icons-tabs desktop">
-                <div className="tab">
-                    <img src="/tick.svg" alt="checkmark icon" height={60} width={60} />
-                    <span>Open for work</span>
-                </div>
+               <AvailableForWorkTab available={false} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
                     <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/rfLyhYSitrb1jcxS7" target="_blank">Brisbane</a></span>
@@ -58,10 +55,7 @@ export default function Header() {
                     })}
                 </ul>
                 <div className="icons-tabs mobile">
-                <div className="tab">
-                    <img src="/tick.svg" alt="checkmark icon" height={60} width={60} />
-                    <span>Open for work</span>
-                </div>
+                <AvailableForWorkTab available={false} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
                     <span>Based in <a className="inline-link" href="#" target="_blank">Brisbane</a></span>
@@ -71,5 +65,19 @@ export default function Header() {
             </nav>
             </div>}
         </header>
+    )
+}
+
+function AvailableForWorkTab({ available } : { available: boolean }) {
+    return (
+        //only show this tab if I am available for work
+        <>
+        {available && (
+            <div className="tab">
+                <img src="/tick.svg" alt="checkmark icon" height={60} width={60} />
+                <span>Open for work</span>
+            </div>
+        )}
+        </>
     )
 }

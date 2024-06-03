@@ -24,7 +24,7 @@ export default function HomePage() {
       <HeroBanner
         sectionId="hero"
         title="Designing Solutions for Your Business"
-        subtitle="Web designer & developer specialising in WordPress & React Web Development"
+        subtitle="Software developer & web designer in Brisbane, Australia"
         buttons={[
           { text: "View Portfolio", link: "#portfolio" },
           { text: "Connect With Me", link: "#contact" },
@@ -38,7 +38,7 @@ export default function HomePage() {
         featuredImages={FEATURED_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a web developer & designer with experience in WordPress, React, Javascript, Typescript, PHP, and HTML/CSS. I completed my Graduate Diploma in IT (Majoring in Computer Science) early 2023 while working as a Web Developer for Digital8. <br/><br/>I am now currently working as a freelancer available for web projects Australia-wide. If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see personal projects I've been working on.
+          My name is Katelyn and I'm a software developer & web designer. I completed my Graduate Diploma in IT (Majoring in Computer Science). I am currently working as a software developer. <br/><br/>If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
         </p>
       </AboutSection>
       <CardsSection

@@ -81,7 +81,7 @@ export const CONTACT_ME_IMAGES: Image[] = [
 export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
     {
         title: 'Knowledge of Fundamentals',
-        description: 'A strong understanding of FE web development fundamentals (HTML & CSS, Javascript, APIs), and how a website is built.'
+        description: 'A strong understanding of web development fundamentals (HTML & CSS, Javascript, APIs), and how a website is built.'
     },
     {
         title: 'WordPress Web Development',
@@ -116,7 +116,7 @@ export const TESTIMONIALS: Testimonial[] = [
     {
         testimonial: 'I highly recommend Katelyn for her amazing developer and designer skills. She does an amazing job on all projects. Not only does she meet the deadlines and requirements, she also helps build long-term relationships with clients.<br><br>I have the privilege of working with her on several projects and she is an absolutely pleasure to work with. Katelyn\'s dedication to ensuring high quality work and great results for clients is remarkable.',
         authorName: 'Luc Van der Vulgt',
-        authorPosition: 'Project Account Manager at Digital8',
+        authorPosition: 'Project Account Manager at Digital8 (Former)',
         authorIcon: '/testimonials/luc.jpeg'
     },
     {
@@ -130,6 +130,12 @@ export const TESTIMONIALS: Testimonial[] = [
         authorName: 'Ruby Fieldes',
         authorPosition: 'Client Web Support at Digital8',
         authorIcon: '/testimonials/ruby.jpg'
+    },
+    {
+        testimonial: 'Katelyn is an enthusiastic developer with a real drive to learn and experiment with new technologies. She has a great understanding of what makes software usable for users with a strong focus on UI and UX.',
+        authorName: 'Rhys McKenzie',
+        authorPosition: 'Head of Development at Digital8',
+        authorIcon: '/testimonials/rhys.jpeg'
     },
 ]
 
