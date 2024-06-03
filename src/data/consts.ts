@@ -135,7 +135,7 @@ export const TESTIMONIALS: Testimonial[] = [
         testimonial: 'Katelyn is an enthusiastic developer with a real drive to learn and experiment with new technologies. She has a great understanding of what makes software usable for users with a strong focus on UI and UX.',
         authorName: 'Rhys McKenzie',
         authorPosition: 'Head of Development at Digital8',
-        authorIcon: '/testimonials/rhys.jpeg'
+        authorIcon: '/testimonials/rhys_mckenzie.jpg'
     },
 ]
 
