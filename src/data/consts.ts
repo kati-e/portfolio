@@ -110,7 +110,7 @@ export const TESTIMONIALS: Testimonial[] = [
     {
         testimonial: 'Katelyn is an asset to any team she works with! I have had the pleasure of working with her on over 40+ projects and have seen first hand her exceptional contributions as a Web Developer at Digital8. Specialising in WordPress and React Web Development, she consistently delivers high-quality work, meets deadlines, solves complex problems and builds lasting client relationships (...) She is not only a technically skilled professional but also an organised, efficient, and open-to-challenges team player.',
         authorName: 'Annaliese Jauch',
-        authorPosition: 'Head of Project Delivery at Digital8 (Former)',
+        authorPosition: 'Head of Project Delivery',
         authorIcon: '/testimonials/annaliese.jpeg',
     },
     {
