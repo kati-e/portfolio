@@ -142,6 +142,16 @@ export const TESTIMONIALS: Testimonial[] = [
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     {
+        title: "Calibo",
+        workingFor: "Digital8",
+        workingForLink: "https://digital8.com.au/",
+        dateLaunched: "Early 2024",
+        excerpt: "I was the lead developer for a website project using React/Typescript & Laravel project for Calibo. This was a custom website build based on a Figma design using Tailwind. This project was really enjoyable for me, and I loved experiencing working on both Front End & Back End components.",
+        featuredImage: { src: "/portfolio/calibo.jpg", alt: "Calibo Website Build" },
+        siteUrl: "https://www.calibo.com.au/",
+        techStack: ["React", "NextJS", "Typescript", "Tailwind", "Sass", "Laravel"]
+    },
+    {
         title: "Lighting Illusions",
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
