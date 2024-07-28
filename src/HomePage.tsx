@@ -38,7 +38,7 @@ export default function HomePage() {
         featuredImages={FEATURED_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a software developer & web designer. I completed my Graduate Diploma in IT (Majoring in Computer Science). I am currently working as a software developer. <br/><br/>If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
+          My name is Katelyn and I'm a software developer & web designer. I completed my Graduate Diploma in IT (Majoring in Computer Science). I am currently working as a software developer, as well as offering a few WordPress freelancing jobs in my spare time. <br/><br/>If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
         </p>
       </AboutSection>
       <CardsSection
@@ -63,7 +63,7 @@ export default function HomePage() {
         images={CONTACT_ME_IMAGES}
       >
         <p>
-        Want to collaborate or just say 'hi'? I'm always open to meeting new people or discussing new opportunities. Feel free to contact me via LinkedIn or email to connect.
+        Want to collaborate or just say 'hi'? I'm always open to meeting new people or discussing opportunities. Feel free to contact me via LinkedIn or email to connect.
         </p>
         {EmailAddress && (
           <span>

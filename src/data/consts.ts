@@ -128,13 +128,13 @@ export const TESTIMONIALS: Testimonial[] = [
     {
         testimonial: 'I worked with Katelyn for 9 months at Digital8 and I would highly recommend her for any development work. Her skills are second to none when it comes to development and she passed along some of her knowledge to myself which I am very grateful for. She is organised, efficient and reliable, count yourself lucky if you are able to have Katelyn as part of your team!',
         authorName: 'Ruby Fieldes',
-        authorPosition: 'Client Web Support at Digital8',
+        authorPosition: 'Client Web Support',
         authorIcon: '/testimonials/ruby.jpg'
     },
     {
         testimonial: 'Katelyn is an enthusiastic developer with a real drive to learn and experiment with new technologies. She has a great understanding of what makes software usable for users with a strong focus on UI and UX.',
         authorName: 'Rhys McKenzie',
-        authorPosition: 'Head of Development at Digital8',
+        authorPosition: 'Head of Development',
         authorIcon: '/testimonials/rhys_mckenzie.jpg'
     },
 ]
@@ -146,7 +146,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Early 2024",
-        excerpt: "I was the lead developer for a website project using React/Typescript & Laravel project for Calibo. This was a custom website build based on a Figma design using Tailwind. This project was really enjoyable for me, and I loved experiencing working on both Front End & Back End components.",
+        excerpt: "I was one of the main developers for a website project using React/Typescript & Laravel project for Calibo. This was a custom website build based on a Figma design using Tailwind. This project was really enjoyable for me, and I loved experiencing working on both Front End & Back End components.",
         featuredImage: { src: "/portfolio/calibo.jpg", alt: "Calibo Website Build" },
         siteUrl: "https://www.calibo.com.au/",
         techStack: ["React", "NextJS", "Typescript", "Tailwind", "Sass", "Laravel"]
