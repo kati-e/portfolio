@@ -146,7 +146,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Early 2024",
-        excerpt: "I was one of the main developers for a website project using React/Typescript & Laravel project for Calibo. This was a custom website build based on a Figma design using Tailwind. This project was really enjoyable for me, and I loved experiencing working on both Front End & Back End components.",
+        excerpt: "I was one of the main developers for a website project using React/Typescript & Laravel for Calibo. This was a custom website build based on a Figma design using Tailwind. This project was really enjoyable for me, and I loved experiencing working on both Front End & Back End components.",
         featuredImage: { src: "/portfolio/calibo.jpg", alt: "Calibo Website Build" },
         siteUrl: "https://www.calibo.com.au/",
         techStack: ["React", "NextJS", "Typescript", "Tailwind", "Sass", "Laravel"]
