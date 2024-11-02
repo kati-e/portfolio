@@ -23,7 +23,7 @@ export default function PortfolioCard({
       {project.siteUrl && project.siteUrl !== "#" ?
         <div className="img-group" onMouseEnter={() => setCardHover(true)} onMouseLeave={() => setCardHover(false)}>
           <a href={project.siteUrl ?? "#"} target="_blank">
-            <div className={`overlay${cardHover ? ' flex' : ' hidden'}`}><span>View Live Site</span></div>
+            <div className={`overlay${cardHover ? ' flex' : ' hidden'}`}><span>Visit Site</span></div>
             <img src={project.featuredImage.src ?? ""} alt={project.featuredImage.alt ?? "preview of project"} />
           </a>
         </div>
@@ -44,7 +44,7 @@ export default function PortfolioCard({
           )}
         </div>
         <p>{project.excerpt ?? ""}</p>
-        <a className="inline-link site-link-mobile" href={project.siteUrl ?? "#"} target="_blank">View Live Site</a>
+        <a className="inline-link site-link-mobile" href={project.siteUrl ?? "#"} target="_blank">Visit Site</a>
         <div className="bubbles">
           {project.techStack.length > 0 &&
             project.techStack.map((tech) => {

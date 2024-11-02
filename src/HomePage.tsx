@@ -24,7 +24,7 @@ export default function HomePage() {
       <HeroBanner
         sectionId="hero"
         title="Designing Solutions for Your Business"
-        subtitle="Software developer & web designer in Brisbane, Australia"
+        subtitle="Software developer & web designer in Sydney, Australia"
         buttons={[
           { text: "View Portfolio", link: "#portfolio" },
           { text: "Connect With Me", link: "#contact" },
@@ -38,7 +38,7 @@ export default function HomePage() {
         featuredImages={FEATURED_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a software developer & web designer. I completed my Graduate Diploma in IT (Majoring in Computer Science). I am currently working as a software developer, as well as offering a few WordPress freelancing jobs in my spare time. <br/><br/>If you were interested in seeing some of my work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
+          My name is Katelyn and I'm a software developer & web designer. I completed my Graduate Diploma in IT (Majoring in Computer Science) in early 2023, and am currently working as a software developer at Patient Zero, as well as offering WordPress freelancing work in my spare time. <br/><br/>If you were interested in seeing some of my design or development work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
         </p>
       </AboutSection>
       <CardsSection

@@ -36,10 +36,10 @@ export default function Header() {
                     </div>
                </div>
                <div className="icons-tabs desktop">
-               <AvailableForWorkTab available={false} />
+               <AvailableForWorkTab available={true} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
-                    <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/rfLyhYSitrb1jcxS7" target="_blank">Brisbane</a></span>
+                    <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/SgGgYFP6QjsSWNbR7" target="_blank">Sydney, Australia</a></span>
                 </div>
                </div>
             </div>
@@ -55,10 +55,10 @@ export default function Header() {
                     })}
                 </ul>
                 <div className="icons-tabs mobile">
-                <AvailableForWorkTab available={false} />
+                <AvailableForWorkTab available={true} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
-                    <span>Based in <a className="inline-link" href="#" target="_blank">Brisbane</a></span>
+                    <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/SgGgYFP6QjsSWNbR7" target="_blank">Sydney</a></span>
                 </div>
                </div>
                <IconsGroup icons={SOCIAL_LINKS} />
@@ -75,7 +75,7 @@ function AvailableForWorkTab({ available } : { available: boolean }) {
         {available && (
             <div className="tab">
                 <img src="/tick.svg" alt="checkmark icon" height={60} width={60} />
-                <span>Open for work</span>
+                <span>Open for freelance</span>
             </div>
         )}
         </>

@@ -12,11 +12,11 @@ export const NAV_MENU: Link[] = [
         link: "/#about",
         text: "About Me"
     },
-    // {
-    //     key: 2,
-    //     link: "/#portfolio",
-    //     text: "Projects"
-    // },
+    {
+        key: 2,
+        link: "/#portfolio",
+        text: "Projects"
+    },
     {
         key: 3,
         link: "/#testimonials",
@@ -89,7 +89,7 @@ export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
     },
     {
         title: 'React Web Development',
-        description: 'Experience working on agile react team projects working through stories & sprints lead by a team lead / scrum master.'
+        description: 'Experience working on agile react team projects working through stories & sprints lead by a project owner / scrum master.'
     },
     {
         title: 'Google Tag Manager & GA4',
@@ -101,7 +101,7 @@ export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
     },
     {
         title: 'Security, Accessability, & QA',
-        description: 'Security, accessability, and creating an all-round well made website are at the top of my mind throughout any web project.'
+        description: 'Security, accessability, and creating an all-round well made user-friendly website are at the top of my mind throughout any project.'
     },
 ]
 
@@ -141,6 +141,14 @@ export const TESTIMONIALS: Testimonial[] = [
 
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
+    {
+        title: "Cliq Marketing Content",
+        dateLaunched: "Late 2023 - Ongoing",
+        excerpt: "I have been crafting bespoke landing pages for Cliq MC as a freelancer since late 2023 and I love working with Esther, Tim & the team! This work is mostly more design-focused, using Elementor page builder (and sometimes a little CSS) to create unique page designs.",
+        featuredImage: { src: "/portfolio/cliq.jpg", alt: "Various Landing Page Projects" },
+        siteUrl: "https://www.cliqmc.com.au/",
+        techStack: ["Landing Page Design", "CRO", "WordPress", "Elementor", "Envato Elements", "CSS"]
+    },
     {
         title: "Calibo",
         workingFor: "Digital8",
@@ -186,7 +194,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         workingFor: "Digital8",
         workingForLink: "https://digital8.com.au/",
         dateLaunched: "Mid 2023",
-        excerpt: "I was tasked to work on the new Slade Industries website rebuild and redesign project. Apart from initial mockups of the home page completed by a former in-house designer, I was the lead designer & developer for this project. I also designed a separate landing page for their Siex technology. I designed & built the rest of the website based off the existing initial home page design to give it a consistent and polished feel, then deployed the site onto the live hosting environment once completed.",
+        excerpt: "I was tasked to work on the new Slade Industries website rebuild and redesign project. Apart from initial mockups of the home page completed by a former in-house designer, I was the lead designer & developer for this project. I also designed a separate landing page for their SiEx technology. I designed & built the rest of the website based off the existing initial home page design to give it a consistent and polished feel, then deployed the site onto the live hosting environment once completed.",
         featuredImage: { src: "/portfolio/slade-industries.jpg", alt: "Slade Industries Website Rebuild" },
         siteUrl: "https://sladeindustries.com.au/",
         techStack: ["Web Design", "WordPress", "Elementor", "CSS"]
