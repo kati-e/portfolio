@@ -1,0 +1,4 @@
+Contact: Please use the email listed on my website \(^-^)
+Expires: 2030-01-01T14:00:00.000Z
+Preferred-Languages: en, jp
+Canonical: https://klcleary.com/.well-known/security.txt
