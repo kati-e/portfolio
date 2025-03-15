@@ -36,7 +36,7 @@ export default function Header() {
                     </div>
                </div>
                <div className="icons-tabs desktop">
-               <AvailableForWorkTab available={true} />
+               <AvailableForWorkTab available={false} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
                     <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/SgGgYFP6QjsSWNbR7" target="_blank">Sydney, Australia</a></span>
@@ -55,7 +55,7 @@ export default function Header() {
                     })}
                 </ul>
                 <div className="icons-tabs mobile">
-                <AvailableForWorkTab available={true} />
+                <AvailableForWorkTab available={false} />
                 <div className="tab">
                     <img src="/pin.svg" alt="map location pin icon" height={60} width={60} />
                     <span>Based in <a className="inline-link" href="https://maps.app.goo.gl/SgGgYFP6QjsSWNbR7" target="_blank">Sydney</a></span>

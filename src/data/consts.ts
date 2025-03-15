@@ -149,7 +149,7 @@ export const TESTIMONIALS: Testimonial[] = [
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     {
         title: "Cliq Marketing Content",
-        dateLaunched: "Late 2023 - Ongoing",
+        dateLaunched: "Late 2023 - 2024",
         excerpt: "I have been crafting bespoke landing pages for Cliq MC as a freelancer since late 2023 and I love working with Esther, Tim & the team! This work is mostly more design-focused, using Elementor page builder (and sometimes a little CSS) to create unique page designs.",
         featuredImage: { src: "/portfolio/cliq.jpg", alt: "Various Landing Page Projects" },
         siteUrl: "https://www.cliqmc.com.au/",
