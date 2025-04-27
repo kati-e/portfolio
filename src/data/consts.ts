@@ -80,28 +80,28 @@ export const CONTACT_ME_IMAGES: Image[] = [
 //SKILLS
 export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
     {
-        title: 'Knowledge of Fundamentals',
-        description: 'A strong understanding of web development fundamentals (HTML & CSS, Javascript, APIs), and how a website is built.'
-    },
-    {
-        title: 'WordPress Web Development',
-        description: 'Experience building custom WordPress websites, shortcodes, and plugins, as well as extensive experience with Elementor.'
+        title: 'Full Stack Web Development',
+        description: 'A strong understanding of web developments, from front-end structure and styling (HTML, CSS, JavaScript) to back-end interactions through APIs and databases.'
     },
     {
         title: 'React Web Development',
-        description: 'Experience working on agile react team projects working through stories & sprints lead by a project owner / scrum master.'
+        description: 'Experienced in building web applications using React and Tailwind CSS, with various back end technologies such as Laravel, .NET, and WordPress REST API.'
     },
     {
-        title: 'Google Tag Manager & GA4',
-        description: 'Advanced knowledge of setup & configuration of GTM & GA4 custom conversion events to assist Google Ads campaign efforts.'
+        title: 'Agile Projects',
+        description: 'I have experience working within agile projects, collaborating with POs, clients, and small teams to deliver product features through each structured sprint.'
     },
     {
-        title: 'Web & Digital Design',
-        description: 'Experienced in both digital graphic design & UI design, I love crafting bespoke website designs & prototypes in Figma.'
+        title: 'WordPress Development',
+        description: 'My foundation is in custom WordPress development in PHP, including custom child theme and plugin creation, and complex Elementor builds.'
     },
     {
         title: 'Security, Accessability, & QA',
-        description: 'Security, accessability, and creating an all-round well made user-friendly website are at the top of my mind throughout any project.'
+        description: 'Security, accessability, and creating an all-round well made user-friendly application are at the top of my mind throughout any project.'
+    },
+    {
+        title: 'Web & Digital Design Roots',
+        description: 'I had my start in the industry with graphic design, crafting webpage designs, pdfs and icons, and prototypes in Figma. I later chose to move more towards development.'
     },
 ]
 

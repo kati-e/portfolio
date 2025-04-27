@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HomePage from "./HomePage.tsx";
+import HomePage from "./pages/HomePage.tsx";
 import "./global.scss";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import NotFoundPage from "./NotFoundPage.tsx";
-import PrivacyPolicy from "./PrivacyPolicy.tsx";
+import NotFoundPage from "./pages/NotFoundPage.tsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 
 //ROUTING
 const router = createBrowserRouter([

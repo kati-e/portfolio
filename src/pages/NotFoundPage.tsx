@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom";
-import { LinkedIn } from "./data/consts";
+import { LinkedIn } from "../data/consts";
 
 export default function NotFoundPage() {
     const error: any = useRouteError();
