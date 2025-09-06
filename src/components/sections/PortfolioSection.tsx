@@ -20,9 +20,10 @@ export default function PortfolioSection({
   title: string;
   projects: PortfolioProject[];
 }) {
-
   const slugify = useSlugify();
-  const [projectCount, setProjectCount] = useState(projects.length < 4 ? projects.length : 4)
+  const [projectCount, setProjectCount] = useState(
+    projects.length < 4 ? projects.length : 4
+  );
   const doSeeLess = projectCount >= projects.length && projects.length >= 4;
   const doSeeMore = projectCount < projects.length && projects.length >= 4;
 
@@ -33,11 +34,32 @@ export default function PortfolioSection({
         <div className="portfolio-cards">
           {projects.length > 0 &&
             projects.map((project, index) => {
-              return index < projectCount ? <PortfolioCard key={slugify(project.title)} project={project} /> : null;
+              return index < projectCount ? (
+                <PortfolioCard key={slugify(project.title)} project={project} />
+              ) : null;
             })}
         </div>
-        {doSeeMore && <button className="button cursor-pointer" onClick={() => {setProjectCount(projectCount + 2)}}>See More Projects</button>}
-        {doSeeLess && <a href="#portfolio" className="button" onClick={() => {setProjectCount(4)}}>See Less Projects</a>}
+        {doSeeMore && (
+          <button
+            className="button cursor-pointer"
+            onClick={() => {
+              setProjectCount(projectCount + 2);
+            }}
+          >
+            See More Projects
+          </button>
+        )}
+        {doSeeLess && (
+          <a
+            href="#portfolio"
+            className="button"
+            onClick={() => {
+              setProjectCount(4);
+            }}
+          >
+            See Less Projects
+          </a>
+        )}
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { TextCard } from "../../data/shapes";
-import '../../styles/components/cards-section.scss';
+import "../../styles/components/cards-section.scss";
 import useSlugify from "../hooks/useSlugify";
 
 /**
@@ -21,25 +21,34 @@ export default function CardsSection({
   cards: TextCard[];
   columns: number;
 }) {
-
   const slugify = useSlugify();
-  
+
   return (
-    <section id={sectionId ?? ""} className={`${sectionId && sectionId + " "}wrapper`}>
+    <section
+      id={sectionId ?? ""}
+      className={`${sectionId && sectionId + " "}wrapper`}
+    >
       <div className="cards-top-section container">
         <h2 className="heading-text">{title}</h2>
       </div>
-      <div className={`cards-grid container ${columns >= 3 ? "md:grid-cols-3" : columns === 2 ? "md:grid-cols-2" : ""}`}>
-        {cards.length > 0 && (
-            cards.map((card) => {
-                return (
-                    <div key={slugify(card.title)} className="card">
-                        <h3>{card.title ?? ""}</h3>
-                        <p>{card.description ?? ""}</p>
-                    </div>
-                )
-            })
-        )}
+      <div
+        className={`cards-grid container ${
+          columns >= 3
+            ? "md:grid-cols-3"
+            : columns === 2
+            ? "md:grid-cols-2"
+            : ""
+        }`}
+      >
+        {cards.length > 0 &&
+          cards.map((card) => {
+            return (
+              <div key={slugify(card.title)} className="card">
+                <h3>{card.title ?? ""}</h3>
+                <p>{card.description ?? ""}</p>
+              </div>
+            );
+          })}
       </div>
     </section>
   );

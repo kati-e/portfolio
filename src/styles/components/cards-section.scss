@@ -1,11 +1,11 @@
 .cards-top-section {
-    @apply pb-8;
+  @apply pb-8;
 }
 .cards-grid {
-    @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
-    //Note: the desktop columns can be up to 3 and is controlled inside the component code dynamically
+  @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
+  //Note: the desktop columns can be up to 3 and is controlled inside the component code dynamically
 
-    .card {
-        @apply flex flex-col gap-3 p-5 border-2 rounded-lg border-dashed border-yellow-caramel;
-    }
+  .card {
+    @apply flex flex-col gap-3 p-5 border-2 rounded-lg border-dashed border-yellow-caramel;
+  }
 }

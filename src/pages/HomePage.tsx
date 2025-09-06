@@ -2,10 +2,7 @@ import AboutSection from "../components/sections/AboutSection";
 import HeroBanner from "../components/sections/HeroBanner";
 import CardsSection from "../components/sections/CardsSection";
 import {
-  CONTACT_ME_IMAGES,
   DP_ME,
-  EmailAddress,
-  FEATURED_IMAGES,
   Github,
   PORTFOLIO_PROJECTS,
   SOCIAL_LINKS,
@@ -17,6 +14,7 @@ import TestimonialSection from "../components/sections/TestimonialSection";
 import "../styles/pages/home-page.scss";
 import ContactMeSection from "../components/sections/ContactMeSection";
 import IconsGroup from "../components/child-components/IconsGroup";
+import InlineLink from "../components/child-components/InlineLink";
 
 export default function HomePage() {
   return (
@@ -35,10 +33,24 @@ export default function HomePage() {
         title="About Me"
         dpImage={DP_ME}
         icons={SOCIAL_LINKS}
-        featuredImages={FEATURED_IMAGES}
       >
         <p>
-          My name is Katelyn and I'm a full stack software developer based in Sydney, Australia. I completed my Graduate Diploma in IT (Majoring in Computer Science) in early 2023, and have 4 years experience working in the industry. I am currently working as a software developer at <a className="inline-link" href="https://www.pz.com.au/" target="_blank" aria-label="Patient Zero Brisbane">Patient Zero</a>. <br/><br/>If you were interested in seeing some of my design or development work, check out my portfolio projects below, or visit my <a className="inline-link" href={Github} target="_blank">Github</a> to see some personal projects I've been working on.
+          My name is Katelyn and I'm a full stack software developer based in
+          Sydney, Australia. I completed my Graduate Diploma in IT (Majoring in
+          Computer Science) in early 2023, and have 4 years experience working
+          in the industry. I am currently working as a software developer at
+          <InlineLink
+            href="https://www.pz.com.au/"
+            text="Patient Zero"
+            ariaLabel="Patient Zero Brisbane"
+          />
+          .
+          <br />
+          <br />
+          If you were interested in seeing some of my design or development
+          work, check out my portfolio projects below, or visit my
+          <InlineLink href={Github} text="Github" />
+          to see any personal projects I've been working on.
         </p>
       </AboutSection>
       <CardsSection
@@ -57,20 +69,12 @@ export default function HomePage() {
         sectionId="testimonials"
         testimonials={TESTIMONIALS}
       />
-      <ContactMeSection
-        sectionId="contact"
-        title={"Let's Connect"}
-        images={CONTACT_ME_IMAGES}
-      >
+      <ContactMeSection sectionId="contact" title={"Let's Connect"}>
         <p>
-        Want to collaborate or just say 'hi'? I'm always open to meeting new people or discussing opportunities. Feel free to contact me via LinkedIn or email to connect.
+          Want to collaborate or just say 'hi'? I'm always open to meeting new
+          people or discussing opportunities. Feel free to contact me via
+          LinkedIn to connect.
         </p>
-        {EmailAddress && (
-          <span>
-            <strong>Email: </strong>
-            <a className="inline-link" href={`mailto:${EmailAddress}`}>{EmailAddress}</a>
-          </span>
-        )}
         <IconsGroup icons={SOCIAL_LINKS} />
       </ContactMeSection>
     </>

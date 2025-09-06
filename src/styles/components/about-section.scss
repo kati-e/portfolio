@@ -1,15 +1,15 @@
 .about.wrapper {
-    @apply pb-0;
+  @apply pb-0;
 
-    .container {
-        @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
+  .container {
+    @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
 
-        .heading-content {
-            @apply flex flex-col gap-2;
+    .heading-content {
+      @apply flex flex-col gap-2;
 
-            .dp-image {
-                @apply rounded-full h-[6rem] w-[6rem];
-            }
-        }
+      .dp-image {
+        @apply rounded-full h-[6rem] w-[6rem];
+      }
     }
+  }
 }

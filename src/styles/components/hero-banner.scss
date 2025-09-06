@@ -1,11 +1,11 @@
 .hero-banner.wrapper {
-    @apply border-b-2 border-gray-borders lg:pt-[7rem] pt-[4rem];
+  @apply border-b-2 border-gray-borders lg:pt-[7rem] pt-[4rem];
 
-    .container {
-        @apply grid gap-10 justify-start;
-        
-        .inner-content {
-            @apply grid gap-3 lg:max-w-[40rem] max-w-[30rem];
-        }
+  .container {
+    @apply grid gap-10 justify-start;
+
+    .inner-content {
+      @apply grid gap-3 lg:max-w-[40rem] max-w-[30rem];
     }
+  }
 }

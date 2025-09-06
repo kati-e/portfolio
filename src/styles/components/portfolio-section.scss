@@ -1,65 +1,65 @@
 .portfolio.wrapper {
-    @apply bg-yellow-cream;
+  @apply bg-yellow-cream;
 
-    .container {
-        @apply grid gap-8;
-    }
+  .container {
+    @apply grid gap-8;
+  }
 
-    .button {
-        @apply justify-self-center mt-5;
-    }
+  .button {
+    @apply justify-self-center mt-5;
+  }
 
-    .portfolio-cards {
-        @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
+  .portfolio-cards {
+    @apply grid gap-5 sm:grid-cols-2 grid-cols-1;
 
-        .card {
-            @apply flex flex-col gap-8 bg-white-lightcream p-6 rounded-lg items-start;
+    .card {
+      @apply flex flex-col gap-8 bg-white-lightcream p-6 rounded-lg items-start;
 
-            .img-group {
-                @apply relative h-fit rounded-lg w-full;
+      .img-group {
+        @apply relative h-fit rounded-lg w-full;
 
-                .overlay {
-                    //on hover becomes display: flex, else display: none
-                    @apply h-full w-full top-0 left-0 cursor-alias absolute justify-center items-center;
-                    background-color: rgba(0, 0, 0, 0.488);
-    
-                    span {
-                        @apply text-white-lightcream underline;
-                    }
-                }
-            }
+        .overlay {
+          //on hover becomes display: flex, else display: none
+          @apply h-full w-full top-0 left-0 cursor-alias absolute justify-center items-center;
+          background-color: rgba(0, 0, 0, 0.488);
 
-            img {
-                @apply xl:max-h-[18rem] xl:h-[18rem] lg:max-h-[15rem] lg:h-[15rem] sm:max-h-[12rem] sm:h-[12rem] max-h-[13rem] h-[13rem];
-            }
-
-            .card-content {
-                @apply grid gap-5;
-
-                .top-section {
-                    @apply grid gap-2;
-
-                    a {
-                        @apply hover:text-red-brick;
-                    }
-
-                    span {
-                        @apply font-medium;
-                    }
-                }
-
-                .site-link-mobile {
-                    @apply md:hidden block;
-                }
-
-                .bubbles {
-                    @apply mt-2 flex flex-wrap gap-2; 
-
-                    .bubble {
-                        @apply text-[0.9rem] bg-green-sage text-white-lightcream px-3 py-2 rounded-full;
-                    }
-                }
-            }
+          span {
+            @apply text-white-lightcream underline;
+          }
         }
+      }
+
+      img {
+        @apply xl:max-h-[18rem] xl:h-[18rem] lg:max-h-[15rem] lg:h-[15rem] sm:max-h-[12rem] sm:h-[12rem] max-h-[13rem] h-[13rem];
+      }
+
+      .card-content {
+        @apply grid gap-5;
+
+        .top-section {
+          @apply grid gap-2;
+
+          a {
+            @apply hover:text-red-brick;
+          }
+
+          span {
+            @apply font-medium;
+          }
+        }
+
+        .site-link-mobile {
+          @apply md:hidden block;
+        }
+
+        .bubbles {
+          @apply mt-2 flex flex-wrap gap-2;
+
+          .bubble {
+            @apply text-[0.9rem] bg-green-sage text-white-lightcream px-3 py-2 rounded-full;
+          }
+        }
+      }
     }
+  }
 }
