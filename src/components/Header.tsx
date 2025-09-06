@@ -38,7 +38,7 @@ export default function Header() {
             </ul>
           </nav>
           <div className="hamburger-menu" onClick={() => setOpen(true)}>
-            <img src="/hamburg.svg" alt="menu-toggle" />
+            <img src="/hamburg.svg" alt="menu-toggle" height={28} width={20} />
           </div>
         </div>
         <div className="icons-tabs desktop">
