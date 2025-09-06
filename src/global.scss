@@ -224,8 +224,9 @@ select {
     .container {
       @apply flex gap-3 justify-between flex-wrap;
 
-      a {
+      .inline-link {
         @apply hover:underline;
+        color: white !important; // override for link here so it won't disappear on the orange bg
       }
     }
   }
