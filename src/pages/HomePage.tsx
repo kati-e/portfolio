@@ -35,16 +35,9 @@ export default function HomePage() {
         icons={SOCIAL_LINKS}
       >
         <p>
-          My name is Katelyn and I'm a full stack software developer based in
+          My name is Katelyn and I'm a full-stack software engineer based in
           Sydney, Australia. I completed my Graduate Diploma in IT (Majoring in
-          Computer Science) in early 2023, and have 4 years experience working
-          in the industry. I am currently working as a software developer at
-          <InlineLink
-            href="https://www.pz.com.au/"
-            text="Patient Zero"
-            ariaLabel="Patient Zero Brisbane"
-          />
-          .
+          Computer Science) in early 2023, and have 4 years experience developing websites and web applications.
           <br />
           <br />
           If you were interested in seeing some of my design or development
