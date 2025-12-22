@@ -1,7 +1,7 @@
 import { Testimonial } from "../../data/shapes";
 import "../../styles/components/testimonial-section.scss";
+import slugify from "../../utils/slugify";
 import TestimonialCard from "../child-components/TestimonialCard";
-import useSlugify from "../hooks/useSlugify";
 
 /**
  * Testimonials Section
@@ -19,8 +19,6 @@ export default function TestimonialSection({
   sectionId?: string;
   testimonials: Testimonial[];
 }) {
-  const slugify = useSlugify();
-
   return (
     <section id={sectionId ?? ""} className="testimonials wrapper">
       <div className="container">

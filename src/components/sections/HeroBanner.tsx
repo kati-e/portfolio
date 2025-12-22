@@ -1,6 +1,6 @@
 import { Button } from "../../data/shapes";
 import "../../styles/components/hero-banner.scss";
-import useSlugify from "../hooks/useSlugify";
+import slugify from "../../utils/slugify";
 
 /**
  * Hero Banner
@@ -20,8 +20,6 @@ export default function HeroBanner({
   subtitle: string;
   buttons: Button[];
 }) {
-  const slugify = useSlugify();
-
   return (
     <section id={sectionId ?? ""} className="hero-banner wrapper">
       <div className="container">

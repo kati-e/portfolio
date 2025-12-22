@@ -2,7 +2,7 @@ import PortfolioCard from "../child-components/PortfolioCard";
 import "../../styles/components/portfolio-section.scss";
 import { PortfolioProject } from "../../data/shapes";
 import { useState } from "react";
-import useSlugify from "../hooks/useSlugify";
+import slugify from "../../utils/slugify";
 
 /**
  * Portfolio Section
@@ -20,7 +20,6 @@ export default function PortfolioSection({
   title: string;
   projects: PortfolioProject[];
 }) {
-  const slugify = useSlugify();
   const [projectCount, setProjectCount] = useState(
     projects.length < 4 ? projects.length : 4
   );

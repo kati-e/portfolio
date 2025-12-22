@@ -1,6 +1,6 @@
 import { TextCard } from "../../data/shapes";
 import "../../styles/components/cards-section.scss";
-import useSlugify from "../hooks/useSlugify";
+import slugify from "../../utils/slugify";
 
 /**
  * Cards Grid Section
@@ -21,8 +21,6 @@ export default function CardsSection({
   cards: TextCard[];
   columns: number;
 }) {
-  const slugify = useSlugify();
-
   return (
     <section
       id={sectionId ?? ""}

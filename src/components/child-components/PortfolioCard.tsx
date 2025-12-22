@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { PortfolioProject } from "../../data/shapes";
-import useSlugify from "../hooks/useSlugify";
 import InlineLink from "./InlineLink";
+import slugify from "../../utils/slugify";
 
 /**
  * Portfolio Card
@@ -15,7 +15,6 @@ export default function PortfolioCard({
 }: {
   project: PortfolioProject;
 }) {
-  const slugify = useSlugify();
   const [cardHover, setCardHover] = useState(false);
 
   return (
