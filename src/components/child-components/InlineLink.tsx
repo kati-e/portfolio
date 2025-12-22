@@ -8,16 +8,13 @@ export default function ({
   ariaLabel?: string;
 }) {
   return (
-    <>
-      {" "}
-      <a
-        className="inline-link"
-        href={href}
-        target="_blank"
-        aria-label={ariaLabel}
-      >
-        {text}
-      </a>{" "}
-    </>
+    <a
+      className="inline-link mx-1"
+      href={href}
+      target="_blank"
+      aria-label={ariaLabel}
+    >
+      {text}
+    </a>
   );
 }
