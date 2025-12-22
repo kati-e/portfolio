@@ -4,7 +4,7 @@
  * and strips disallowed characters.
  */
 export default function slugify(input: string) {
-  if (!input) return "";
+  if (!input || input === "") return "";
   return input
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "") // Remove diacritics
