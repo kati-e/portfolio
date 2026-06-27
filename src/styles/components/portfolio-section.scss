@@ -52,6 +52,10 @@
           @apply md:hidden block;
         }
 
+        .featured-image-caption {
+          @apply text-[0.9rem] text-[#666] italic;
+        }
+
         .bubbles {
           @apply mt-2 flex flex-wrap gap-2;
 

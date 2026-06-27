@@ -139,7 +139,31 @@ export const TESTIMONIALS: Testimonial[] = [
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
-    title: "Full Stack Developer",
+    title: "Design System & Component Libraries",
+    workingFor: "Cover Genius",
+    workingForLink: "https://covergenius.com/",
+    dateLaunched: "Early 2026 - Current",
+    excerpt:
+      "I am currently part of the Design Systems team, working on the development of an internal design system including components & design token packages. It is exciting work that leverages AI to accelerate both the design and development process company-wide.",
+    featuredImage: {
+      src: "/portfolio/design-systems.jpg",
+      alt: "AI generated image of a design system and component library interface example",
+    },
+    featuredImageCaption:
+      "AI generated image - not reflective of actual design system",
+    techStack: [
+      "Claude",
+      "Figma MCP",
+      "Style Dictionary",
+      "Design Tokens",
+      "Storybook",
+      "Bundling & Tree Shaking",
+      "React Components",
+      "Web Components",
+    ],
+  },
+  {
+    title: "Full Stack Development - Project Team",
     workingFor: "Patient Zero",
     workingForLink: "https://www.pz.com.au/",
     dateLaunched: "2024 - 2026",
@@ -154,6 +178,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       "Modernisation",
       "C#",
       ".NET",
+      "React",
+      "Typescript",
       "SQLServer",
       "Azure",
       "Kendo UI",
@@ -169,6 +195,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       src: "/portfolio/cliq.jpg",
       alt: "Various Landing Page Projects",
     },
+    featuredImageCaption:
+      "Compilation of various landing pages I created during my work for Cliq MC.",
     siteUrl: "https://www.cliqmc.com.au/",
     techStack: [
       "Landing Page Design",

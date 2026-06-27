@@ -35,7 +35,8 @@ export interface PortfolioProject {
   dateLaunched: string;
   excerpt: string;
   featuredImage: Image;
-  siteUrl: string;
+  featuredImageCaption?: string;
+  siteUrl?: string;
   techStack: string[];
 }
 

@@ -76,6 +76,11 @@ export default function PortfolioCard({
         >
           Visit Site
         </a>
+        {project.featuredImageCaption && (
+          <span className="featured-image-caption">
+            Image: {project.featuredImageCaption}
+          </span>
+        )}
         <div className="bubbles">
           {project.techStack.length > 0 &&
             project.techStack.map((tech) => {

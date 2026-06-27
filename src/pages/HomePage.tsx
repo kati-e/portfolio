@@ -17,6 +17,17 @@ import IconsGroup from "../components/child-components/IconsGroup";
 import InlineLink from "../components/child-components/InlineLink";
 
 export default function HomePage() {
+  const howManyYears = () => {
+    // making this dynamic so I don't have to remember to update it every year
+    // I want to count it from May 2022 until current date.
+    const startYear = 2022;
+    const startMonth = 4; // May (0-indexed)
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = currentDate.getMonth();
+    return currentYear - startYear - (currentMonth < startMonth ? 1 : 0); // this will subtract 1 if the current month is before May, otherwise it will return the difference in years
+  };
+
   return (
     <>
       <HeroBanner
@@ -37,7 +48,8 @@ export default function HomePage() {
         <p>
           My name is Katelyn and I'm a full-stack software engineer based in
           Sydney, Australia. I completed my Graduate Diploma in IT (Majoring in
-          Computer Science) in early 2023, and have 4 years experience developing websites and web applications.
+          Computer Science) in early 2023, and have {howManyYears()} years
+          experience developing websites and web applications.
           <br />
           <br />
           If you were interested in seeing some of my design or development
