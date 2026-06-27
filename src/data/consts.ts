@@ -139,6 +139,28 @@ export const TESTIMONIALS: Testimonial[] = [
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
+    title: "Patient Zero",
+    workingFor: "Patient Zero",
+    workingForLink: "https://www.pz.com.au/",
+    dateLaunched: "2024 - 2026",
+    excerpt:
+      "My time at Patient Zero was an absolute pleasure. I worked on a high-impact project for the Education sector in QLD as a Full Stack Developer, mainly working in C# and .NET, and gained valuable experience maintaining & modernising a long-standing legacy system.",
+    featuredImage: {
+      src: "/portfolio/patient-zero.jpg",
+      alt: "Patient Zero",
+    },
+    siteUrl: "https://www.pz.com.au/",
+    techStack: [
+      "Modernisation",
+      "C#",
+      ".NET",
+      "SQLServer",
+      "Azure",
+      "Kendo UI",
+      "CSS",
+    ],
+  },
+  {
     title: "Cliq Marketing Content",
     dateLaunched: "Late 2023 - 2024",
     excerpt:
