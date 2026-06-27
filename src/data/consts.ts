@@ -139,7 +139,7 @@ export const TESTIMONIALS: Testimonial[] = [
 //PORTFOLIO
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
-    title: "Patient Zero",
+    title: "Full Stack Developer",
     workingFor: "Patient Zero",
     workingForLink: "https://www.pz.com.au/",
     dateLaunched: "2024 - 2026",
