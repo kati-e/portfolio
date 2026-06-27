@@ -31,7 +31,9 @@ export default function Header() {
                 NAV_MENU.map((link) => {
                   return (
                     <li key={link.key} className="navlink">
-                      <a href={link.link ?? "#"}>{link.text ?? ""}</a>
+                      <a href={link.link ?? "#"} rel="noopener">
+                        {link.text ?? ""}
+                      </a>
                     </li>
                   );
                 })}

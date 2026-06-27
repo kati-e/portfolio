@@ -25,7 +25,11 @@ export default function PortfolioCard({
           onMouseEnter={() => setCardHover(true)}
           onMouseLeave={() => setCardHover(false)}
         >
-          <a href={project.siteUrl ?? "#"} target="_blank">
+          <a
+            href={project.siteUrl ?? "#"}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <div className={`overlay${cardHover ? " flex" : " hidden"}`}>
               <span>Visit Site</span>
             </div>
@@ -44,7 +48,7 @@ export default function PortfolioCard({
       <div className="card-content">
         <div className="top-section">
           {project.siteUrl ? (
-            <a href={project.siteUrl} target="_blank">
+            <a href={project.siteUrl} target="_blank" rel="noreferrer noopener">
               <h3 className="smaller-heading-text">{project.title ?? ""}</h3>
             </a>
           ) : (
@@ -68,6 +72,7 @@ export default function PortfolioCard({
           className="inline-link site-link-mobile"
           href={project.siteUrl ?? "#"}
           target="_blank"
+          rel="noreferrer noopener"
         >
           Visit Site
         </a>

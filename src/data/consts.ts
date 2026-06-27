@@ -92,6 +92,37 @@ export const TECHNICAL_SPECIALISATIONS: TextCard[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     testimonial:
+      "Katelyn was a pleasure to work with. She is quick to learn, embraces new challenges with enthusiasm, and consistently demonstrates a strong desire to grow and improve (...)<br><br>What stood out most was how quickly she could get up to speed on new technologies and our ways of working. She is adaptable, reliable, and brings a great energy to the team. I would happily recommend Katelyn and would welcome the opportunity to work with her again in the future.",
+    authorName: "Irina Kudryavtseva",
+    authorPosition:
+      "Senior Full-Stack Engineer (Past Co-worker at Patient Zero)",
+  },
+  {
+    testimonial:
+      "Katelyn is an asset to any team she works with! I have had the pleasure of working with her on over 40+ projects and have seen first hand her exceptional contributions as a Web Developer at Digital8. Specialising in WordPress and React Web Development, she consistently delivers high-quality work, meets deadlines, solves complex problems and builds lasting client relationships (...) She is not only a technically skilled professional but also an organised, efficient, and open-to-challenges team player.",
+    authorName: "Annaliese Jauch",
+    authorPosition: "Head of Project Delivery (Past Co-worker at Digital8)",
+  },
+  {
+    testimonial:
+      "Katelyn is a breath of fresh air to work with. Always organised, efficient and open to taking on new challenges, working with Katelyn at Digital8 has been an absolute pleasure. Her website design/development skills are second to none and continuously exceed client expectations. Working on the same team, I'm not sure how we would function without her!",
+    authorName: "Freja Daniels-Gillen",
+    authorPosition: "Social & PPC Lead (Past Co-worker at Digital8)",
+  },
+  {
+    testimonial:
+      "I worked with Katelyn for 9 months at Digital8 and I would highly recommend her for any development work. Her skills are second to none when it comes to development and she passed along some of her knowledge to myself which I am very grateful for. She is organised, efficient and reliable, count yourself lucky if you are able to have Katelyn as part of your team!",
+    authorName: "Ruby Fieldes",
+    authorPosition: "Client Web Support (Past Co-worker at Digital8)",
+  },
+  {
+    testimonial:
+      "I highly recommend Katelyn for her amazing developer and designer skills. She does an amazing job on all projects. Not only does she meet the deadlines and requirements, she also helps build long-term relationships with clients. I have the privilege of working with her on several projects and she is an absolutely pleasure to work with. Katelyn's dedication to ensuring high quality work and great results for clients is remarkable.",
+    authorName: "Luc Van der Vulgt",
+    authorPosition: "Project Account Manager (Past Co-worker at Digital8)",
+  },
+  {
+    testimonial:
       "We have used Katelyn to help our with designing & building landing pages at our google ads agency. She has been nothing but lovely to work with. She has been great at communication & has been great at hitting very extremely tight deadlines. We have seen her go over and beyond to get her work done to the level that is required. We would strongly recommend!",
     authorName: "Cliq Marketing Content",
     authorPosition: "Tim & Esther (Freelance Clients)",
@@ -99,33 +130,9 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     testimonial:
-      "Katelyn is a breath of fresh air to work with. Always organised, efficient and open to taking on new challenges, working with Katelyn at Digital8 has been an absolute pleasure. Her website design/development skills are second to none and continuously exceed client expectations. Working on the same team, I'm not sure how we would function without her!",
-    authorName: "Freja Daniels-Gillen",
-    authorPosition: "Social & PPC Lead (Past Co-worker)",
-  },
-  {
-    testimonial:
-      "Katelyn is an asset to any team she works with! I have had the pleasure of working with her on over 40+ projects and have seen first hand her exceptional contributions as a Web Developer at Digital8. Specialising in WordPress and React Web Development, she consistently delivers high-quality work, meets deadlines, solves complex problems and builds lasting client relationships (...) She is not only a technically skilled professional but also an organised, efficient, and open-to-challenges team player.",
-    authorName: "Annaliese Jauch",
-    authorPosition: "Head of Project Delivery (Past Co-worker)",
-  },
-  {
-    testimonial:
-      "I highly recommend Katelyn for her amazing developer and designer skills. She does an amazing job on all projects. Not only does she meet the deadlines and requirements, she also helps build long-term relationships with clients. <br><br>I have the privilege of working with her on several projects and she is an absolutely pleasure to work with. Katelyn's dedication to ensuring high quality work and great results for clients is remarkable.",
-    authorName: "Luc Van der Vulgt",
-    authorPosition: "Project Account Manager (Past Co-worker)",
-  },
-  {
-    testimonial:
-      "I worked with Katelyn for 9 months at Digital8 and I would highly recommend her for any development work. Her skills are second to none when it comes to development and she passed along some of her knowledge to myself which I am very grateful for. She is organised, efficient and reliable, count yourself lucky if you are able to have Katelyn as part of your team!",
-    authorName: "Ruby Fieldes",
-    authorPosition: "Client Web Support (Past Co-worker)",
-  },
-  {
-    testimonial:
       "Katelyn is an enthusiastic developer with a real drive to learn and experiment with new technologies. She has a great understanding of what makes software usable for users with a strong focus on UI and UX.",
     authorName: "Rhys McKenzie",
-    authorPosition: "Head of Development (Past Co-worker)",
+    authorPosition: "Head of Development (Past Co-worker at Digital8)",
   },
 ];
 

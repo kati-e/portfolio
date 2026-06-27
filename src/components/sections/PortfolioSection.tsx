@@ -49,6 +49,7 @@ export default function PortfolioSection({
           </button>
         )}
         {doSeeLess && (
+          // TODO: this should probably be a button with a scrollto function rather than anchorlink
           <a
             href="#portfolio"
             className="button"

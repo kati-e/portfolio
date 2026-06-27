@@ -35,6 +35,7 @@ export default function HeroBanner({
                   className={index > 0 ? "button outlined" : "button"}
                   key={slugify(btn.text)}
                   href={btn.link ?? "#"}
+                  rel="noreferrer noopener"
                 >
                   {btn.text ?? ""}
                 </a>

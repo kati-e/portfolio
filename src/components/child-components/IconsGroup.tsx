@@ -17,6 +17,7 @@ export default function IconsGroup({ icons }: { icons: Icon[] }) {
               key={icon.key}
               href={icon.link ?? "#"}
               target={icon.newTab ? "_blank" : "_self"}
+              rel="noreferrer noopener"
             >
               <img
                 className="icon"
