@@ -68,14 +68,16 @@ export default function PortfolioCard({
           )}
         </div>
         <p>{project.excerpt ?? ""}</p>
-        <a
-          className="inline-link site-link-mobile"
-          href={project.siteUrl ?? "#"}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Visit Site
-        </a>
+        {project.siteUrl && project.siteUrl !== "#" ? (
+          <a
+            className="inline-link site-link-mobile"
+            href={project.siteUrl ?? "#"}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Visit Site
+          </a>
+        ) : null}
         {project.featuredImageCaption && (
           <span className="featured-image-caption">
             Image: {project.featuredImageCaption}
